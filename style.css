@@ -1,6 +1,52 @@
-header,
-.heading,
-.text {
+.header {
   background-color: #0c484b;
   color: #f7f5f2;
+  padding: 12px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.mb {
+  margin-bottom: 40px;
+}
+
+.details {
+  font-size: 18px;
+  margin: 0px 18px 0px 18px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.links {
+  background-color: #0c484b;
+  color: #f7f5f2;
+  text-decoration: none;
+  font-size: 18px;
+  border: 1px solid #0c484b;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin: 20px;
+}
+
+.text {
+  font-size: 16px;
+  text-transform: capitalize;
+  line-height: 25px;
+}
+
+.text a {
+  color: #0c484b;
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 18px;
+}
+
+th,
+td {
+  padding: 12px 20px;
 }
