@@ -6,13 +6,28 @@
   margin-bottom: 20px;
 }
 
+body {
+  /* background-image: url(/assets/david-van-dijk-3LTht2nxd34-unsplash.jpg);
+  background-repeat: no-repeat;
+  color: black; */
+}
+
+.logo {
+  width: 100px;
+  margin-right: 850px;
+}
+
 .mb {
   margin-bottom: 40px;
 }
 
 .details {
   font-size: 18px;
-  margin: 0px 18px 0px 18px;
+  margin: 8px 18px 0px 18px;
+}
+
+.details i {
+  margin: 0 10px 0 0;
 }
 
 .navbar {
@@ -26,12 +41,12 @@
   font-size: 18px;
   border: 1px solid #0c484b;
   border-radius: 8px;
-  padding: 8px 16px;
+  padding: 6px 10px;
   margin: 20px;
 }
 
 .text {
-  font-size: 16px;
+  font-size: 18px;
   text-transform: capitalize;
   line-height: 25px;
 }
@@ -49,4 +64,34 @@ table {
 th,
 td {
   padding: 12px 20px;
+}
+
+.container {
+  border: 1px solid transparent;
+  height: 250px;
+  width: 350px;
+  border-radius: 20px;
+  padding: 40px 40px;
+  margin-left: 30%;
+  margin-top: 10%;
+  background-color: #0c484b;
+  color: #fcfbf2;
+  /* box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px; */
+  /* box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px; */
+
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.text {
+  display: inline-block;
+  height: 20px;
+  width: 250px;
+}
+
+.container span {
+  margin-left: 20px;
+  font-size: 22px;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 50px;
 }
